@@ -5,5 +5,5 @@ public class MainMenuTargets {
             .locatedBy("(//a[contains(text(),'Makeup')])[2]");
 
     public static final Target SKINCARE_MENU_ITEM = Target.called("Makeup Menu Item")
-            .locatedBy("(//a[contains(text(),'Skincare')])[3]");
+            .locatedBy("(//a[contains(text(),'Skincare')])[2]");
 } 
