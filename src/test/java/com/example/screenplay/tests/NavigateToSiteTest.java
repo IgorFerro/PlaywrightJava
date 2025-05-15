@@ -3,7 +3,7 @@ package com.example.screenplay.tests;
 import com.example.screenplay.abilities.BrowseTheWeb;
 import com.example.screenplay.actor.Actor;
 import com.example.screenplay.tasks.NavigateTo;
-import com.example.screenplay.tasks.SelectMakeupMenuItem;
+import com.example.screenplay.tasks.SelectMenuItem;
 import com.example.screenplay.tasks.SelectEyesSubmenuFromMakeupPage;
 import com.example.screenplay.tasks.AddSecondProductFromEyesPageToCart;
 import com.example.screenplay.tasks.SelectProductColorOption;
@@ -54,7 +54,7 @@ public class NavigateToSiteTest {
 
         james.attemptsTo(
                 NavigateTo.url(targetUrl),
-                SelectMakeupMenuItem.now(),
+                SelectMenuItem.named("makeup"),
                 SelectEyesSubmenuFromMakeupPage.now(),
                 AddSecondProductFromEyesPageToCart.now(),
                 SelectProductColorOption.named(colorChoice),
@@ -84,5 +84,17 @@ public class NavigateToSiteTest {
         // if (playwright != null) {
         //     playwright.close(); // This is handled by the ability's closeBrowser method
         // }
+    }
+    @Test
+    public void userCanNavigateToAutomationTestStoreAndSelectSkincare() {
+        String targetUrl = "https://automationteststore.com/";
+        String skincarePageTitleSubstring = "Skincare";
+        String colorChoice = "Dore";
+
+        james.attemptsTo(
+                NavigateTo.url(targetUrl),
+                SelectMenuItem.named("skincare")
+        );
+                
     }
 } 

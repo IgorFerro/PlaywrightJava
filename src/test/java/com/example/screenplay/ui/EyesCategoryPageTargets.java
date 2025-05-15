@@ -7,8 +7,8 @@ public class EyesCategoryPageTargets {
             // If the above doesn't work, you might need: .locatedBy(".col-md-3:nth-child(2) .fa");
 
     // New target for the Waterproof Protective Undereye Concealer text/link
-    // Using Playwright's text selector syntax
+    // Using a specific XPath selector to avoid strict mode validation issues
     public static final Target WATERPROOF_CONCEALER_PRODUCT_LINK = Target.called("Waterproof Protective Undereye Concealer Link")
-            .locatedBy("text=Waterproof Protective Undereye Concealer");        
+            .locatedBy("//a[@class='prdocutname' and text()='Waterproof Protective Undereye Concealer' and @href='https://automationteststore.com/index.php?rt=product/product&path=36_39&product_id=56']");        
             
 } 
