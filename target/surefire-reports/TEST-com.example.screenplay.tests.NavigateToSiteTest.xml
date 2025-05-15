@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.screenplay.tests.NavigateToSiteTest" time="15.32" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/andreiaoliveira/playwrightWebTesting/target/test-classes:/Users/andreiaoliveira/playwrightWebTesting/target/classes:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/playwright/1.40.0/playwright-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/andreiaoliveira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/driver/1.40.0/driver-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/driver-bundle/1.40.0/driver-bundle-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/andreiaoliveira/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/andreiaoliveira/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/andreiaoliveira/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/andreiaoliveira/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/andreiaoliveira/playwrightWebTesting/target/surefire/surefirebooter9483280700000726605.jar /Users/andreiaoliveira/playwrightWebTesting/target/surefire 2025-05-14T19-36-55_591-jvmRun1 surefire4070312382039853766tmp surefire_015863001209808144784tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/andreiaoliveira/playwrightWebTesting/target/test-classes:/Users/andreiaoliveira/playwrightWebTesting/target/classes:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/playwright/1.40.0/playwright-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/andreiaoliveira/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/driver/1.40.0/driver-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/com/microsoft/playwright/driver-bundle/1.40.0/driver-bundle-1.40.0.jar:/Users/andreiaoliveira/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/andreiaoliveira/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/andreiaoliveira/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/andreiaoliveira/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/andreiaoliveira/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/andreiaoliveira"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/andreiaoliveira/playwrightWebTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/andreiaoliveira/playwrightWebTesting/target/surefire/surefirebooter9483280700000726605.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="user.name" value="andreiaoliveira"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/andreiaoliveira/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/jn/n7xhf4gs48n4mw4lr7tgcj1h0000gn/T/"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/Users/andreiaoliveira/playwrightWebTesting"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/andreiaoliveira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="userCanNavigateToAutomationTestStore" classname="com.example.screenplay.tests.NavigateToSiteTest" time="5.09">
+    <system-out><![CDATA[James navigated to: https://automationteststore.com/
+]]></system-out>
+  </testcase>
+  <testcase name="userCanNavigateToAutomationTestStoreAndSelectMakeup" classname="com.example.screenplay.tests.NavigateToSiteTest" time="6.401">
+    <system-out><![CDATA[James navigated to: https://automationteststore.com/
+James clicks on Makeup Menu Item located by (//a[contains(text(),'Makeup')])[2]
+]]></system-out>
+  </testcase>
+</testsuite>

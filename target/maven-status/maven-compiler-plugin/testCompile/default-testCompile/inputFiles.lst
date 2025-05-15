@@ -1,0 +1,14 @@
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/tests/NavigateToSiteTest.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/questions/Question.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/ui/MainMenuTargets.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/abilities/Ability.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/tasks/NavigateTo.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/tasks/SelectMakeupMenuItem.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/abilities/BrowseTheWeb.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/interactions/OpenUrl.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/interactions/Click.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/interactions/Interaction.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/tasks/Task.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/actor/Actor.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/questions/PageTitle.java
+/Users/andreiaoliveira/playwrightWebTesting/src/test/java/com/example/screenplay/ui/Target.java
